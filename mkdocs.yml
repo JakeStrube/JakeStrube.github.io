@@ -1,6 +1,6 @@
 site_name: EGR314 Jake Strube DataSheet
-site_url: https://embedded-systems-design.github.io/template_report
-repo_url: https://github.com/embedded-systems-design/template_report
+site_url: https://jakestrube.github.io/
+repo_url: https://github.com/JakeStrube/JakeStrube.github.io
 edit_uri: edit/main/docs/
 theme:
   name: material
