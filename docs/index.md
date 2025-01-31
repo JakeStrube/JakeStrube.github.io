@@ -5,18 +5,10 @@ tags:
 - tag2
 ---
 
-## Hello my name is Jake
+## Introduction
 
-* List item 1
-* List item 2
+This is the website for Jake Strube.
 
-name  | description
-------|------------
-Jake  | Cool
-ben   | silly
+## Directory
 
-### Here is a sub heading
-
-1. step 1
-1. step 2
-1. step 3
+- [DataSheet Homepage](DataSheet/index.md)
