@@ -6,16 +6,6 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://jakestrube.github.io/charts/</loc>
-         <lastmod>2025-01-31</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://jakestrube.github.io/second-page/</loc>
-         <lastmod>2025-01-31</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
          <loc>https://jakestrube.github.io/DataSheet/</loc>
          <lastmod>2025-01-31</lastmod>
          <changefreq>daily</changefreq>
@@ -27,16 +17,6 @@
     </url>
     <url>
          <loc>https://jakestrube.github.io/static/node_modules/mathjax/</loc>
-         <lastmod>2025-01-31</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://jakestrube.github.io/subfolder/</loc>
-         <lastmod>2025-01-31</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://jakestrube.github.io/subfolder/another-subfile/</loc>
          <lastmod>2025-01-31</lastmod>
          <changefreq>daily</changefreq>
     </url>
