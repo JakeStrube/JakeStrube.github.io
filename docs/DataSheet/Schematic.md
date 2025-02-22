@@ -9,5 +9,4 @@ Below is the schematic for the HMI subsystem for team 204. It is split into 3 di
 ### Schematic
 ![Schematic](EGR314_HMISUBSYSTEM.png)
 
-### PDF of schematic
-[Schematic PDF](HMI_Subsystem.pdf)
+### [PDF of schematic](HMI_Subsystem.pdf)
