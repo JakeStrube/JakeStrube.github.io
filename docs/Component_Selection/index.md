@@ -16,6 +16,10 @@ title: Component Selection
 
 **Rationale:** This switching voltage regulator emits an output of 3.3 volts when setup with an external circuit like shown in the detailed data sheet. The circuit is not complicated and does not require to many components externally. It also comes at a lower price than either of the other two options.It also allows a current operating range with a max of 1.5 A and a min voltage of 6.3 V with a max of 40V
 
+**OLED Screen**
+| Solution | Pros | Cons |
+| ![Teyleten Robot 0.96 inch LCD OLED Display Board Module 12864 128X64 IIC I2C SSD1306 Driver 4 Pins](OLED_Screen.jpg)<br> Option 1.<br> Teyleten 0.96 inch LCD OLED Display <br> $2.58/each<br> [Link to product](https://www.amazon.com/Teyleten-Robot-Display-SSD1306-Raspberry/dp/B0CN373JF4) | \* Already provided in class<br> Will have experience using it| \* It is a small screen |
+
 ### Microcontroller Selection
 
 #### Reason for Selection
