@@ -14,4 +14,4 @@ This is the individual datasheet for Jake Strube on team 204. Jake is incharge o
 
 ## To group website
 
-[Team 204 Website](https://asu-egr314-2025-s-204.github.io/)
+- [Team 204 Website](https://asu-egr314-2025-s-204.github.io/)
