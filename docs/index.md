@@ -8,9 +8,9 @@ This is the individual datasheet for Jake Strube on team 204. Jake is incharge o
 
 ## Directory
 
-- [Individual Block Diagram](IndividualBlockDiagram/index.md)
-- [Component Selection](ComponentSelection/index.md)
-- [HMI Schematic](Schematic/index.md)
+- [Individual Block Diagram](Individual_Block_Diagram/index.md)
+- [Component Selection](Component_Selection/index.md)
+- [HMI Schematic](Schematic_Design/index.md)
 
 ## To group website
 
