@@ -10,3 +10,4 @@ Below is the individual block diagram for my component of my team's project. My 
 ### Block Diagram
 
 ![Individual Block Diagram](EGR314-Team204-IndividualBlockDiagram-Jake.drawio.png)
+
