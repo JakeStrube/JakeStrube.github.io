@@ -2,6 +2,11 @@
 title: Component Selection
 ---
 
+## Overview
+Below all of the major components that are being used in the subsystem are shown with multiple devices that are being considered to be choosen. Each device has its pros and cons, then below each table is the device selection as well as an explination as to why it was selected. The microcontroller selection goes over the choosen microcontroller and why it was selected and how it will be used within the design.
+ 
+ The power budget for the subsystem can be found here: [Power Budget](Power_Budget.md)
+
 ### Major Components
 
 **Switching Voltage Regulator**
