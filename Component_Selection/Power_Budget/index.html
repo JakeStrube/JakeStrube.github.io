@@ -29,7 +29,7 @@
 
     
       
-        <title>Power Budget - Jake Strube Indivdual Website</title>
+        <title>Power Budget - Jake Strube Indivdual Datasheet</title>
       
     
     
@@ -109,7 +109,7 @@
 
 <header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="../.." title="Jake Strube Indivdual Website" class="md-header__button md-logo" aria-label="Jake Strube Indivdual Website" data-md-component="logo">
+    <a href="../.." title="Jake Strube Indivdual Datasheet" class="md-header__button md-logo" aria-label="Jake Strube Indivdual Datasheet" data-md-component="logo">
       
   <img src="../../static/logo.svg" alt="logo">
 
@@ -122,7 +122,7 @@
       <div class="md-header__ellipsis">
         <div class="md-header__topic">
           <span class="md-ellipsis">
-            Jake Strube Indivdual Website
+            Jake Strube Indivdual Datasheet
           </span>
         </div>
         <div class="md-header__topic" data-md-component="header-topic">
@@ -304,12 +304,12 @@
 
 <nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="../.." title="Jake Strube Indivdual Website" class="md-nav__button md-logo" aria-label="Jake Strube Indivdual Website" data-md-component="logo">
+    <a href="../.." title="Jake Strube Indivdual Datasheet" class="md-nav__button md-logo" aria-label="Jake Strube Indivdual Datasheet" data-md-component="logo">
       
   <img src="../../static/logo.svg" alt="logo">
 
     </a>
-    Jake Strube Indivdual Website
+    Jake Strube Indivdual Datasheet
   </label>
   
     <div class="md-nav__source">
@@ -461,6 +461,13 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#explanation" class="md-nav__link">
+    Explanation
+  </a>
+  
+</li>
+        
       </ul>
     </nav>
   
@@ -603,6 +610,13 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#explanation" class="md-nav__link">
+    Explanation
+  </a>
+  
+</li>
+        
       </ul>
     </nav>
   
@@ -637,6 +651,9 @@
 <p>Below is the power budget for the HMI subsystem. It includes the major component and the microcontroller and estimates how much power it would consume and how long the battery would last with just the one subsystem.</p>
 <h3 id="power-budget">Power Budget</h3>
 <p><a class="glightbox" href="../Power_Budget.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Power Budget" src="../Power_Budget.png" /></a></p>
+<h3 id="explanation">Explanation</h3>
+<p>The power budget above shows that the minimum amount of battery life expected if all systems were running at their highest power consumption would be 3.1 hours of battery life using the 6 PX1500 AA batteries all connected in series. Each of these batteries according to their data sheet, which is linked below, has a capacity of 3.112Ah and produce 1.5V. When all 6 are aligned in series their combined voltage jumps to 9 volts while keeping the 3.112Ah of battery life. The expected battery life of the subsystem should be more than the 3.1 hours predicted because the subsystem will not be running at max power for the whole 3 hours during its actual operation.</p>
+<p>-<a href="../PX1500.pdf">Battery datasheet</a></p>
 
 
 
