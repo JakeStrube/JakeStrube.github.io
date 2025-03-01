@@ -2,32 +2,37 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://jakestrube.github.io/</loc>
-         <lastmod>2025-02-28</lastmod>
+         <lastmod>2025-03-01</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://jakestrube.github.io/Bill_of_Materials/</loc>
+         <lastmod>2025-03-01</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://jakestrube.github.io/Component_Selection/</loc>
-         <lastmod>2025-02-28</lastmod>
+         <lastmod>2025-03-01</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://jakestrube.github.io/Component_Selection/Power_Budget/</loc>
-         <lastmod>2025-02-28</lastmod>
+         <lastmod>2025-03-01</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://jakestrube.github.io/Individual_Block_Diagram/</loc>
-         <lastmod>2025-02-28</lastmod>
+         <lastmod>2025-03-01</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://jakestrube.github.io/Schematic_Design/</loc>
-         <lastmod>2025-02-28</lastmod>
+         <lastmod>2025-03-01</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://jakestrube.github.io/static/node_modules/mathjax/</loc>
-         <lastmod>2025-02-28</lastmod>
+         <lastmod>2025-03-01</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
