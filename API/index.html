@@ -12,13 +12,13 @@
       
       
       
-        <link rel="canonical" href="https://jakestrube.github.io/Individual_Block_Diagram/">
+        <link rel="canonical" href="https://jakestrube.github.io/API/">
       
       
-        <link rel="prev" href="../Component_Selection/Power_Budget/">
+        <link rel="prev" href="..">
       
       
-        <link rel="next" href="../Schematic_Design/">
+        <link rel="next" href="../Bill_of_Materials/">
       
       
       <link rel="icon" href="../static/logo.png">
@@ -29,7 +29,7 @@
 
     
       
-        <title>Individual Block Diagram - Jake Strube Indivdual Datasheet</title>
+        <title>API - Jake Strube Indivdual Datasheet</title>
       
     
     
@@ -93,7 +93,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#block-diagram" class="md-skip">
+        <a href="#overview" class="md-skip">
           Skip to content
         </a>
       
@@ -128,7 +128,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Individual Block Diagram
+              API
             
           </span>
         </div>
@@ -217,11 +217,13 @@
         
   
   
+    
+  
   
     
     
-      <li class="md-tabs__item">
-        <a href="../API/" class="md-tabs__link">
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="./" class="md-tabs__link">
           
   
     
@@ -277,13 +279,11 @@
         
   
   
-    
-  
   
     
     
-      <li class="md-tabs__item md-tabs__item--active">
-        <a href="./" class="md-tabs__link">
+      <li class="md-tabs__item">
+        <a href="../Individual_Block_Diagram/" class="md-tabs__link">
           
   
     
@@ -389,6 +389,8 @@
       
   
   
+    
+  
   
     
     
@@ -399,28 +401,40 @@
       
     
     
-      
-      
-    
-    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
-  
-  
-    <a href="../API/" class="md-nav__link">
-      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="./" class="md-nav__link md-nav__link--active">
+              
   
   <span class="md-ellipsis">
     API
   </span>
   
 
-      
-        <span class="md-nav__icon md-icon"></span>
-      
-    </a>
-  
-
+            </a>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            API
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+          </ul>
+        </nav>
       
     </li>
   
@@ -514,8 +528,6 @@
       
   
   
-    
-  
   
     
     
@@ -526,40 +538,28 @@
       
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
       
         
-        
-        
-        
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" checked>
-        
-          
-          
-          <div class="md-nav__link md-nav__container">
-            <a href="./" class="md-nav__link md-nav__link--active">
-              
+  
+  
+    <a href="../Individual_Block_Diagram/" class="md-nav__link">
+      
   
   <span class="md-ellipsis">
     Individual Block Diagram
   </span>
   
 
-            </a>
-            
-          </div>
-        
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="true">
-          <label class="md-nav__title" for="__nav_5">
-            <span class="md-nav__icon md-icon"></span>
-            Individual Block Diagram
-          </label>
-          <ul class="md-nav__list" data-md-scrollfix>
-            
-              
-            
-          </ul>
-        </nav>
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
       
     </li>
   
@@ -631,24 +631,78 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#block-diagram" class="md-nav__link">
-    Block Diagram
-  </a>
-  
-    <nav class="md-nav" aria-label="Block Diagram">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
   <a href="#overview" class="md-nav__link">
     Overview
   </a>
   
 </li>
+      
+        <li class="md-nav__item">
+  <a href="#message-protocol" class="md-nav__link">
+    Message Protocol
+  </a>
+  
+    <nav class="md-nav" aria-label="Message Protocol">
+      <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#block-diagram_1" class="md-nav__link">
-    Block Diagram
+  <a href="#messages-that-i-send" class="md-nav__link">
+    Messages That I Send
   </a>
+  
+    <nav class="md-nav" aria-label="Messages That I Send">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#change-following-distance" class="md-nav__link">
+    Change Following Distance
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#change-motor-speed" class="md-nav__link">
+    Change Motor Speed
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#drive-individual-motor" class="md-nav__link">
+    Drive Individual motor
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#messages-i-recieve" class="md-nav__link">
+    Messages I Recieve
+  </a>
+  
+    <nav class="md-nav" aria-label="Messages I Recieve">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#update-displayed-following-distance" class="md-nav__link">
+    Update Displayed Following Distance
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#update-displayed-motor-speed" class="md-nav__link">
+    Update Displayed Motor Speed
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
         
@@ -672,7 +726,7 @@
                   
 
   
-    <a href="https://github.com/JakeStrube/JakeStrube.github.io/edit/main/docs/v/Individual_Block_Diagram/index.md" title="Edit this page" class="md-content__button md-icon">
+    <a href="https://github.com/JakeStrube/JakeStrube.github.io/edit/main/docs/v/API/index.md" title="Edit this page" class="md-content__button md-icon">
       
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4v-2m10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1 2.1 2.1Z"/></svg>
     </a>
@@ -680,13 +734,211 @@
   
 
 
-  <h1>Individual Block Diagram</h1>
+  <h1>API</h1>
 
-<h2 id="block-diagram">Block Diagram</h2>
-<h3 id="overview">Overview</h3>
-<p>Below is the individual block diagram for my component of my team's project. My component is the HMI (Human Machine Interface). The block diagram includes 3 pushbuttons to allow for user input for quick actions, various LEDs to allow for debugging and to let the user know when a function is happening, a potentionmeter to allow a user to select through a range of values, and an OLED screen to display sensor values and allow the user to see what each button does while also providing short instructions on what the user can do next. The microcontroller choose is the PIC18F47Q10 programmed by the Microchip SNAP programmer. All of this is powered by a 3.3V switching power regulator and connects via UART to the rest of my team's PCBs. Each component is shown on the block diagram below along with their connections and type of connection with the number for pins that the component will use.</p>
-<h3 id="block-diagram_1">Block Diagram</h3>
-<p><a class="glightbox" href="EGR314-Team204-IndividualBlockDiagram-Jake.drawio.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Individual Block Diagram" src="EGR314-Team204-IndividualBlockDiagram-Jake.drawio.png" /></a></p>
+<h2 id="overview">Overview</h2>
+<p>The Application Programming Interface (API) is the connection between computers. We will use the API system to communicate between each team memebers subsystem. Outlined below is how the team plans to communicate with each other.</p>
+<h2 id="message-protocol">Message Protocol</h2>
+<h3 id="messages-that-i-send">Messages That I Send</h3>
+<p>These are messages that I will send out to my teammates. Each table shows the message structure with along with a descrioption of how it works and who will recieve the message.</p>
+<h4 id="change-following-distance">Change Following Distance</h4>
+<table>
+<thead>
+<tr>
+<th>Type</th>
+<th>Byte 1</th>
+<th>Byte 2</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Variable Name</td>
+<td>message_type</td>
+<td>set_distance</td>
+</tr>
+<tr>
+<td>Variable Type</td>
+<td>uint8_t</td>
+<td>uint8_t</td>
+</tr>
+<tr>
+<td>Min Value</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>Max Value</td>
+<td>9</td>
+<td>100</td>
+</tr>
+<tr>
+<td>Example</td>
+<td>1</td>
+<td>20</td>
+</tr>
+</tbody>
+</table>
+<p>This message sets the distance at which the robot is supposed to stay away from the object it is detecting. The message begins with byte one, the message type, allowing the reciever to sort the message easier, then byte 2 is the value of the distance that the robot is supposed to keep away from the object its tracking. The set_distance value does not directly communicate with sensors or motor it only states the distance goal that the robot is supposed to keep. This message will be sent to both Andrey and Divine's subsystems that they will use accordingly.</p>
+<h4 id="change-motor-speed">Change Motor Speed</h4>
+<table>
+<thead>
+<tr>
+<th>Type</th>
+<th>Byte 1</th>
+<th>Byte 2</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Variable Name</td>
+<td>message_type</td>
+<td>motor_speed</td>
+</tr>
+<tr>
+<td>Variable Type</td>
+<td>uint8_t</td>
+<td>int8_t</td>
+</tr>
+<tr>
+<td>Min Value</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>Max Value</td>
+<td>9</td>
+<td>100</td>
+</tr>
+<tr>
+<td>Example</td>
+<td>0</td>
+<td>50</td>
+</tr>
+</tbody>
+</table>
+<p>This message changes the speed at which the motors will move at. The message begins with the message type allowing the reciever to sort the message easier, then byte 2 is the target speed at which the motor will travel at. The speed value does not control the motor directly just states at what speed all the motors will move at. The message will send to both Divine and Jacob's subsystem and they will update accordingly.</p>
+<h4 id="drive-individual-motor">Drive Individual motor</h4>
+<table>
+<thead>
+<tr>
+<th>Type</th>
+<th>Byte 1</th>
+<th>Byte 2</th>
+<th>Byte 3</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Variable Name</td>
+<td>message_type</td>
+<td>motor_id</td>
+<td>motor_speed</td>
+</tr>
+<tr>
+<td>Variable Type</td>
+<td>uint8_t</td>
+<td>uint8_t</td>
+<td>int8_t</td>
+</tr>
+<tr>
+<td>Min Value</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+</tr>
+<tr>
+<td>Max Value</td>
+<td>9</td>
+<td>2</td>
+<td>100</td>
+</tr>
+<tr>
+<td>Example</td>
+<td>0</td>
+<td>1</td>
+<td>30</td>
+</tr>
+</tbody>
+</table>
+<p>This message is for driving the motors independently so that the user can directly control the motors using the buttons on the robot. Byte 1 in the message is the meesage type allowing the reciever to sort the message easier. Then byte 2 is the motor_id to select which motor the message is targeting. Byte 3 is the speed at which the motor will be moving at. This message would be sent to Jacob's subsytem.</p>
+<h3 id="messages-i-recieve">Messages I Recieve</h3>
+<p>These are the messages that I can recieve from my teammates. The tables show the message structure along with a description of the message and who I would recieve the message from.</p>
+<h4 id="update-displayed-following-distance">Update Displayed Following Distance</h4>
+<table>
+<thead>
+<tr>
+<th>Type</th>
+<th>Byte 1</th>
+<th>Byte 2</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Variable Name</td>
+<td>message_type</td>
+<td>display_distance</td>
+</tr>
+<tr>
+<td>Variable Type</td>
+<td>uint8_t</td>
+<td>uint8_t</td>
+</tr>
+<tr>
+<td>Min Value</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>Max Value</td>
+<td>9</td>
+<td>100</td>
+</tr>
+<tr>
+<td>Example</td>
+<td>1</td>
+<td>20</td>
+</tr>
+</tbody>
+</table>
+<p>This message that I recieve will allow my system to update the displayed speed on the OLED screen. Byte 1 is the message type allowing my system to easily figure out what the message will be. Then byte 2 is the new distance that I will be displaying OLED screen. I will recieve this message from Divine.</p>
+<h4 id="update-displayed-motor-speed">Update Displayed Motor Speed</h4>
+<table>
+<thead>
+<tr>
+<th>Type</th>
+<th>Byte 1</th>
+<th>Byte 2</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Variable Name</td>
+<td>message_type</td>
+<td>display_speed</td>
+</tr>
+<tr>
+<td>Variable Type</td>
+<td>uint8_t</td>
+<td>int8_t</td>
+</tr>
+<tr>
+<td>Min Value</td>
+<td>0</td>
+<td>-100</td>
+</tr>
+<tr>
+<td>Max Value</td>
+<td>9</td>
+<td>100</td>
+</tr>
+<tr>
+<td>Example</td>
+<td>0</td>
+<td>50</td>
+</tr>
+</tbody>
+</table>
+<p>This message that I recieve allows my system to update the displayed motor speed to the OLED screen. Byte 1 is the message type allowing my system to easily sort the message. Byte 2 is the new speed that the OLED screen will be displaying. I will recieve this message from Divine.</p>
 
 
 
@@ -714,7 +966,7 @@
       <nav class="md-footer__inner md-grid" aria-label="Footer" >
         
           
-          <a href="../Component_Selection/Power_Budget/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Power Budget" rel="prev">
+          <a href=".." class="md-footer__link md-footer__link--prev" aria-label="Previous: Welcome" rel="prev">
             <div class="md-footer__button md-icon">
               
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
@@ -724,20 +976,20 @@
                 Previous
               </span>
               <div class="md-ellipsis">
-                Power Budget
+                Welcome
               </div>
             </div>
           </a>
         
         
           
-          <a href="../Schematic_Design/" class="md-footer__link md-footer__link--next" aria-label="Next: Schematic Design" rel="next">
+          <a href="../Bill_of_Materials/" class="md-footer__link md-footer__link--next" aria-label="Next: Bill of Materials" rel="next">
             <div class="md-footer__title">
               <span class="md-footer__direction">
                 Next
               </span>
               <div class="md-ellipsis">
-                Schematic Design
+                Bill of Materials
               </div>
             </div>
             <div class="md-footer__button md-icon">
