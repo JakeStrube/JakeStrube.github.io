@@ -706,6 +706,13 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#other-types-of-messages" class="md-nav__link">
+    Other Types of Messages
+  </a>
+  
+</li>
+        
       </ul>
     </nav>
   
@@ -778,7 +785,9 @@
 </tr>
 </tbody>
 </table>
-<p>This message sets the distance at which the robot is supposed to stay away from the object it is detecting. The message begins with byte one, the message type, allowing the reciever to sort the message easier, then byte 2 is the value of the distance that the robot is supposed to keep away from the object its tracking. The set_distance value does not directly communicate with sensors or motor it only states the distance goal that the robot is supposed to keep. This message will be sent to both Andrey and Divine's subsystems that they will use accordingly.</p>
+<ul>
+<li>This message sets the distance at which the robot is supposed to stay away from the object it is detecting. The message begins with byte one, the message type, allowing the reciever to sort the message easier, then byte 2 is the value of the distance that the robot is supposed to keep away from the object its tracking. The set_distance value does not directly communicate with sensors or motor it only states the distance goal that the robot is supposed to keep. This message will be sent to both Andrey and Divine's subsystems that they will use accordingly.</li>
+</ul>
 <h4 id="change-motor-speed">Change Motor Speed</h4>
 <table>
 <thead>
@@ -816,7 +825,9 @@
 </tr>
 </tbody>
 </table>
-<p>This message changes the speed at which the motors will move at. The message begins with the message type allowing the reciever to sort the message easier, then byte 2 is the target speed at which the motor will travel at. The speed value does not control the motor directly just states at what speed all the motors will move at. The message will send to both Divine and Jacob's subsystem and they will update accordingly.</p>
+<ul>
+<li>This message changes the speed at which the motors will move at. The message begins with the message type allowing the reciever to sort the message easier, then byte 2 is the target speed at which the motor will travel at. The speed value does not control the motor directly just states at what speed all the motors will move at. The message will send to both Divine and Jacob's subsystem and they will update accordingly.</li>
+</ul>
 <h4 id="drive-individual-motor">Drive Individual motor</h4>
 <table>
 <thead>
@@ -860,7 +871,9 @@
 </tr>
 </tbody>
 </table>
-<p>This message is for driving the motors independently so that the user can directly control the motors using the buttons on the robot. Byte 1 in the message is the meesage type allowing the reciever to sort the message easier. Then byte 2 is the motor_id to select which motor the message is targeting. Byte 3 is the speed at which the motor will be moving at. This message would be sent to Jacob's subsytem.</p>
+<ul>
+<li>This message is for driving the motors independently so that the user can directly control the motors using the buttons on the robot. Byte 1 in the message is the meesage type allowing the reciever to sort the message easier. Then byte 2 is the motor_id to select which motor the message is targeting. Byte 3 is the speed at which the motor will be moving at. This message would be sent to Jacob's subsytem.</li>
+</ul>
 <h3 id="messages-i-recieve">Messages I Recieve</h3>
 <p>These are the messages that I can recieve from my teammates. The tables show the message structure along with a description of the message and who I would recieve the message from.</p>
 <h4 id="update-displayed-following-distance">Update Displayed Following Distance</h4>
@@ -900,7 +913,9 @@
 </tr>
 </tbody>
 </table>
-<p>This message that I recieve will allow my system to update the displayed speed on the OLED screen. Byte 1 is the message type allowing my system to easily figure out what the message will be. Then byte 2 is the new distance that I will be displaying OLED screen. I will recieve this message from Divine.</p>
+<ul>
+<li>This message that I recieve will allow my system to update the displayed speed on the OLED screen. Byte 1 is the message type allowing my system to easily figure out what the message will be. Then byte 2 is the new distance that I will be displaying OLED screen. I will recieve this message from Divine.</li>
+</ul>
 <h4 id="update-displayed-motor-speed">Update Displayed Motor Speed</h4>
 <table>
 <thead>
@@ -938,7 +953,16 @@
 </tr>
 </tbody>
 </table>
-<p>This message that I recieve allows my system to update the displayed motor speed to the OLED screen. Byte 1 is the message type allowing my system to easily sort the message. Byte 2 is the new speed that the OLED screen will be displaying. I will recieve this message from Divine.</p>
+<ul>
+<li>This message that I recieve allows my system to update the displayed motor speed to the OLED screen. Byte 1 is the message type allowing my system to easily sort the message. Byte 2 is the new speed that the OLED screen will be displaying. I will recieve this message from Divine.</li>
+</ul>
+<h3 id="other-types-of-messages">Other Types of Messages</h3>
+<ul>
+<li>Any message that I recieve that I do not have a protocol to handle the system will delete the message to help clean up the system and reduce clogging.</li>
+<li>If I recieve a message that I sent but no one recieved it I will delete the message so that the message is not cycling forever clogging the message system.</li>
+<li>Any message that I recieve that is not directed towards me but is directed to another teammember will be passed over to the next teammate in the subsystem so that they may recieve the message.</li>
+<li>If a message is addressed to someone not in my team then the system will delete the message preventing clogging due to dud messages.</li>
+</ul>
 
 
 
