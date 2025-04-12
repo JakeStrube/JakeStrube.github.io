@@ -1,5 +1,5 @@
 ---
-title: Schematic Design
+title: Schematic and PCB Design
 ---
 
 ## Schematic Overview
@@ -15,3 +15,23 @@ A higher resoultion image can be found in this [PDF of schematic.](HMI_Subsystem
 #### Schematic files
 
 The schematic files can be downloaded from the link here: [Schematic Zip](https://www.dropbox.com/scl/fi/lnm1utdm0yzn3qb9dphyw/EGR314_HMISUBSYSTEM.zip?rlkey=dj3gsipfo2gkfl5x8bmlxaddv&st=7hvunlyk&dl=0)
+
+## PCB Overview
+Below is the PCB for Team 204's HMI subsystem. The PCB is based off of the schematic above and fits on a 75x75mm board. In each corner is a hole 5mm from the sides that is on all of our team's subsystem boards allowing them all to stack vertically saving space within our device. 
+### PCB 
+#### Top of PCB
+##### Circuit Layout
+![PCB Top circuit layout](PCB-Front.png)
+##### 3D Model
+![PCB Top 3D model](PCB3D-Front.png)
+
+#### Bottom of PCB
+##### circuit layout
+![PCB Bottom circuit layout](PCB-Back.png)
+##### 3D Model
+![PCB Bottom 3D model](PCB3D-Back.png)
+
+#### Higher Resoultion Image
+A higher resoultion image can be found in this [PDF of PCB.](PCB-DRC.pdf)
+
+

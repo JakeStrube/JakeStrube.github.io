@@ -13,7 +13,7 @@ This is the individual datasheet for Jake Strube on team 204. Jake is incharge o
 - [Component Selection](Component_Selection/index.md)
 - [Power Budget](Component_Selection/Power_Budget.md)
 - [Individual Block Diagram](Individual_Block_Diagram/index.md)
-- [HMI Schematic](Schematic_Design/index.md)
+- [HMI Schematic and PCB](Schematic_Design/index.md)
  
 ### To group website
 
