@@ -27,7 +27,7 @@
 
     
       
-        <title>Schematic Design - Jake Strube Indivdual Datasheet</title>
+        <title>Schematic and PCB Design - Jake Strube Indivdual Datasheet</title>
       
     
     
@@ -126,7 +126,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Schematic Design
+              Schematic and PCB Design
             
           </span>
         </div>
@@ -668,6 +668,93 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#pcb-overview" class="md-nav__link">
+    PCB Overview
+  </a>
+  
+    <nav class="md-nav" aria-label="PCB Overview">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#pcb" class="md-nav__link">
+    PCB
+  </a>
+  
+    <nav class="md-nav" aria-label="PCB">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#top-of-pcb" class="md-nav__link">
+    Top of PCB
+  </a>
+  
+    <nav class="md-nav" aria-label="Top of PCB">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#circuit-layout" class="md-nav__link">
+    Circuit Layout
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3d-model" class="md-nav__link">
+    3D Model
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#bottom-of-pcb" class="md-nav__link">
+    Bottom of PCB
+  </a>
+  
+    <nav class="md-nav" aria-label="Bottom of PCB">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#circuit-layout_1" class="md-nav__link">
+    circuit layout
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3d-model_1" class="md-nav__link">
+    3D Model
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#higher-resoultion-image_1" class="md-nav__link">
+    Higher Resoultion Image
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -691,7 +778,7 @@
   
 
 
-  <h1>Schematic Design</h1>
+  <h1>Schematic and PCB Design</h1>
 
 <h2 id="schematic-overview">Schematic Overview</h2>
 <p>The schematic for Team 204’s HMI subsystem is divided into three main sections: power input, voltage regulation, and the microcontroller with its peripherals. Power is supplied through a barrel jack that connects to an external source and includes a jumper that allows the system to operate independently or as part of a shared power system. The upstream and downstream connectors have a power transfer line that enables 9V to be shared between subsystems. A jumper on this line allows the group power to be disconnected so the board can run on its own power supply. The voltage regulator section in the top right of the schematic receives 9V from either the barrel jack or group power. It passes through a fuse for overload protection before being stepped down to 3.3V to power the microcontroller, OLED screen, and other components. The microcontroller section features three buttons and a potentiometer for user input along with two LEDs, one red and one green, that indicate system activity and provide real-time feedback. To the right of the microcontroller, the OLED screen displays data and instructions. Several test points on GPIO pins allow for future expansion. Two UART connectors above the microcontroller enable communication with upstream and downstream teammates, and additional test points are available for troubleshooting. Overall, this schematic is designed to be flexible, user-friendly, and adaptable for future improvements to ensure a reliable and efficient HMI subsystem for Team 204.</p>
@@ -701,6 +788,21 @@
 <p>A higher resoultion image can be found in this <a href="HMI_Subsystem2.pdf">PDF of schematic.</a></p>
 <h4 id="schematic-files">Schematic files</h4>
 <p>The schematic files can be downloaded from the link here: <a href="https://www.dropbox.com/scl/fi/lnm1utdm0yzn3qb9dphyw/EGR314_HMISUBSYSTEM.zip?rlkey=dj3gsipfo2gkfl5x8bmlxaddv&amp;st=7hvunlyk&amp;dl=0">Schematic Zip</a></p>
+<h2 id="pcb-overview">PCB Overview</h2>
+<p>Below is the PCB for Team 204's HMI subsystem. The PCB is based off of the schematic above and fits on a 75x75mm board. In each corner is a hole 5mm from the sides that is on all of our team's subsystem boards allowing them all to stack vertically saving space within our device. </p>
+<h3 id="pcb">PCB</h3>
+<h4 id="top-of-pcb">Top of PCB</h4>
+<h5 id="circuit-layout">Circuit Layout</h5>
+<p><a class="glightbox" href="PCB-Front.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="PCB Top circuit layout" src="PCB-Front.png" /></a></p>
+<h5 id="3d-model">3D Model</h5>
+<p><a class="glightbox" href="PCB3D-Front.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="PCB Top 3D model" src="PCB3D-Front.png" /></a></p>
+<h4 id="bottom-of-pcb">Bottom of PCB</h4>
+<h5 id="circuit-layout_1">circuit layout</h5>
+<p><a class="glightbox" href="PCB-Back.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="PCB Bottom circuit layout" src="PCB-Back.png" /></a></p>
+<h5 id="3d-model_1">3D Model</h5>
+<p><a class="glightbox" href="PCB3D-Back.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="PCB Bottom 3D model" src="PCB3D-Back.png" /></a></p>
+<h4 id="higher-resoultion-image_1">Higher Resoultion Image</h4>
+<p>A higher resoultion image can be found in this <a href="PCB-DRC.pdf">PDF of PCB.</a></p>
 
 
 
