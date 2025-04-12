@@ -35,3 +35,7 @@ Below is the PCB for Team 204's HMI subsystem. The PCB is based off of the schem
 A higher resoultion image can be found in this [PDF of PCB.](PCB-DRC.pdf)
 
 
+## Hardware Checkoff:
+Here is the MPLAB X code that was used during the hardware check off for EGR 314: [MPLABX code](https://www.dropbox.com/scl/fi/91cyozhdhvmmobfj77a31/HMI_Subsystem.zip?rlkey=9dbhrdpma1x2am8hrusf7jjrw&st=pglavevd&dl=0)
+
+
