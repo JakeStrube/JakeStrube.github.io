@@ -32,7 +32,7 @@ Below is the PCB for Team 204's HMI subsystem. The PCB is based off of the schem
 ![PCB Bottom 3D model](PCB3D-Back.png)
 
 #### Higher Resoultion Image
-A higher resoultion image can be found in this [PDF of PCB.](PCB-DRC.pdf)
+The higher resoultion images can be found in this [PDF of PCB.](PCB-DRC.pdf)
 
 
 ## Hardware Checkoff:
