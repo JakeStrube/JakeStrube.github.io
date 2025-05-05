@@ -8,13 +8,16 @@ This is the individual datasheet for Jake Strube on team 204. Jake is incharge o
 
 ## Directory
 
-### Inidivudal Assignments
+### To group website
+
+- [Team 204 Website](https://asu-egr314-2025-s-204.github.io/)
+
+### Individual Assignments
 
 - [Component Selection](Component_Selection/index.md)
 - [Power Budget](Component_Selection/Power_Budget.md)
 - [Individual Block Diagram](Individual_Block_Diagram/index.md)
 - [HMI Schematic and PCB](Schematic_Design/index.md)
+- [API Communication](API/index.md)
+- [Resources](Resources/index.md)
  
-### To group website
-
-- [Team 204 Website](https://asu-egr314-2025-s-204.github.io/)

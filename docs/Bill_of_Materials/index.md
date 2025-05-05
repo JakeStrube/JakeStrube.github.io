@@ -10,6 +10,7 @@ Below is the Bill of Materials for the HMI subsystem including all of the major 
 
 ![Bill of Materials](Bill_of_Materials.png)
 
-### PDF of Bill of Materials with links
+### PDF of Bill of Materials
+The PDF of the Bill of Materials can be found below. Inside the PDF all of the links to the vendors and the datasheets for each component can be accessed.
 
 - [PDF of Bill of Materials](EGR314_BOM.pdf)
