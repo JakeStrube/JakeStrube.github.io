@@ -4,7 +4,7 @@ title: Welcome
 
 ## Introduction
 
-This is the individual datasheet for Jake Strube on team 204. Jake is incharge of the HMI subsystem for the team and all related assingments are linked below as well as a link to team 204's main page.
+This is the individual datasheet for Jake Strube on Team 204 for EGR 314. Jake is incharge of the HMI (Human Machine Interface) subsystem for the team and all related assingments are linked below as well as a link to team 204's main page.
 
 ## Directory
 
