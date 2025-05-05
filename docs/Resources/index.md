@@ -23,3 +23,7 @@ The various CAD models that I made for our project can be downloaded below in a 
 - [Sensor Cover zip file](Sensor_Cover.zip)
 #### All Files
 - [Team 204 Custom CAD Files](Team204_CustomCADFiles.zip)
+
+### PCB and Schematic Files
+- [PCB and Schematic Project Files](EGR314_HMISubsystem_files.zip)
+- [PCB Gerber and Drill Files](EGR314_204_HMISubsystem_Gerber.zip)
