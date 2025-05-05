@@ -303,12 +303,32 @@
     
     
       <li class="md-tabs__item">
-        <a href="../Schematic_Design/" class="md-tabs__link">
+        <a href="../Resources/" class="md-tabs__link">
           
   
     
   
-  Schematic Design
+  Resources
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../Schematic_and_PCB_Design/" class="md-tabs__link">
+          
+  
+    
+  
+  Schematic and PCB Design
 
         </a>
       </li>
@@ -587,11 +607,52 @@
         
   
   
-    <a href="../Schematic_Design/" class="md-nav__link">
+    <a href="../Resources/" class="md-nav__link">
       
   
   <span class="md-ellipsis">
-    Schematic Design
+    Resources
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../Schematic_and_PCB_Design/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    Schematic and PCB Design
   </span>
   
 
@@ -663,13 +724,6 @@
           <li class="md-nav__item">
   <a href="#change-motor-speed" class="md-nav__link">
     Change Motor Speed
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#drive-individual-motor" class="md-nav__link">
-    Drive Individual motor
   </a>
   
 </li>
@@ -766,7 +820,7 @@
 <tr>
 <td>Variable Type</td>
 <td>uint8_t</td>
-<td>uint8_t</td>
+<td>hex</td>
 </tr>
 <tr>
 <td>Min Value</td>
@@ -786,7 +840,7 @@
 </tbody>
 </table>
 <ul>
-<li>This message sets the distance at which the robot is supposed to stay away from the object it is detecting. The message begins with byte one, the message type, allowing the reciever to sort the message easier, then byte 2 is the value of the distance that the robot is supposed to keep away from the object its tracking. The set_distance value does not directly communicate with sensors or motor it only states the distance goal that the robot is supposed to keep. This message will be sent to both Andrey and Divine's subsystems that they will use accordingly.</li>
+<li>This message sets the distance at which the robot is supposed to stay away from the object it is detecting. The message begins with byte one, the message type, allowing the reciever to sort the message easier, then byte 2 is the value of the distance that the robot is supposed to keep away from the object its tracking. The set_distance value does not directly communicate with sensors or motor it only states the distance goal that the robot is supposed to keep. This message will be sent to both Andrey and Divine's subsystems that they will use accordingly. The values for the distance is in mm and it is incremented from 0 to 100 in increments of 20.</li>
 </ul>
 <h4 id="change-motor-speed">Change Motor Speed</h4>
 <table>
@@ -806,7 +860,7 @@
 <tr>
 <td>Variable Type</td>
 <td>uint8_t</td>
-<td>int8_t</td>
+<td>hex</td>
 </tr>
 <tr>
 <td>Min Value</td>
@@ -821,58 +875,12 @@
 <tr>
 <td>Example</td>
 <td>0</td>
-<td>50</td>
+<td>60</td>
 </tr>
 </tbody>
 </table>
 <ul>
-<li>This message changes the speed at which the motors will move at. The message begins with the message type allowing the reciever to sort the message easier, then byte 2 is the target speed at which the motor will travel at. The speed value does not control the motor directly just states at what speed all the motors will move at. The message will send to both Divine and Jacob's subsystem and they will update accordingly.</li>
-</ul>
-<h4 id="drive-individual-motor">Drive Individual motor</h4>
-<table>
-<thead>
-<tr>
-<th>Type</th>
-<th>Byte 1</th>
-<th>Byte 2</th>
-<th>Byte 3</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Variable Name</td>
-<td>message_type</td>
-<td>motor_id</td>
-<td>motor_speed</td>
-</tr>
-<tr>
-<td>Variable Type</td>
-<td>uint8_t</td>
-<td>uint8_t</td>
-<td>int8_t</td>
-</tr>
-<tr>
-<td>Min Value</td>
-<td>0</td>
-<td>1</td>
-<td>0</td>
-</tr>
-<tr>
-<td>Max Value</td>
-<td>9</td>
-<td>2</td>
-<td>100</td>
-</tr>
-<tr>
-<td>Example</td>
-<td>0</td>
-<td>1</td>
-<td>30</td>
-</tr>
-</tbody>
-</table>
-<ul>
-<li>This message is for driving the motors independently so that the user can directly control the motors using the buttons on the robot. Byte 1 in the message is the meesage type allowing the reciever to sort the message easier. Then byte 2 is the motor_id to select which motor the message is targeting. Byte 3 is the speed at which the motor will be moving at. This message would be sent to Jacob's subsytem.</li>
+<li>This message changes the speed at which the motors will move at. The message begins with the message type allowing the reciever to sort the message easier, then byte 2 is the target speed at which the motor will travel at. The speed value does not control the motor directly just states at what speed all the motors will move at. The message will send to both Divine and Jacob's subsystem and they will update accordingly. The values for the speed is in mm and it is incremented from 0 to 100 in increments of 20.</li>
 </ul>
 <h3 id="messages-i-recieve">Messages I Recieve</h3>
 <p>These are the messages that I can recieve from my teammates. The tables show the message structure along with a description of the message and who I would recieve the message from.</p>
@@ -894,7 +902,7 @@
 <tr>
 <td>Variable Type</td>
 <td>uint8_t</td>
-<td>uint8_t</td>
+<td>hex</td>
 </tr>
 <tr>
 <td>Min Value</td>
@@ -934,7 +942,7 @@
 <tr>
 <td>Variable Type</td>
 <td>uint8_t</td>
-<td>int8_t</td>
+<td>hex</td>
 </tr>
 <tr>
 <td>Min Value</td>
@@ -949,7 +957,7 @@
 <tr>
 <td>Example</td>
 <td>0</td>
-<td>50</td>
+<td>60</td>
 </tr>
 </tbody>
 </table>
